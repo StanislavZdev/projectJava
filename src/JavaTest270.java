@@ -82,8 +82,8 @@ public class JavaTest270 {
         int quantitySymbol = 0;
         ArrayList<String> massage = new ArrayList<>();
 
-        try (var scan = new Scanner(new FileReader("C:\\Users\\yanaz\\Desktop\\Стас\\dji mavic mini\\JavaTask\\1\\input.txt"));
-             var fW = new FileWriter("C:\\Users\\yanaz\\Desktop\\Стас\\dji mavic mini\\JavaTask\\1\\output.txt")) {
+        try (var scan = new Scanner(new FileReader("C:\\Users\\input.txt"));
+             var fW = new FileWriter("C:\\Users\\output.txt")) {
 
             while (scan.hasNextInt()) {
                 lengthLine = scan.nextInt();
